@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(17, 16, 16);
+}
+nav{
+  display: flex;
+  height: 60px;
+  position: sticky;
+  background: rgb(65, 62, 62);
+  align-items: center;
+}
+.frisr-nav, .lest-nav{
+  display: flex;
+  flex-basis: 25%;
+  height: 40px;
+}
+.nav-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.nav-icon{
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+.nav-icon i{
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+.nav-icon input{
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 4px 15px;
+  background: none;
+  color: rgb(190, 188, 188);
+}
+/***frist-nav end***/
+
+/***medol-nav start***/
+.medol-nav{
+  display: flex;
+  flex-basis: 48%;
+  height: 40px;
+}
+.medol-nav .fa{
+  cursor: pointer;
+  margin: 0 auto ;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.lest-nav{
+  display: flex;
+  align-items: center;
+}
+.lest-nav-img{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.lest-nav-img img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.lest-nav-img p{
+  color: white;
+}
+.lest-nav-icon i{
+  margin: 6px 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
