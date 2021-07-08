@@ -12,6 +12,7 @@ nav{
   position: sticky;
   background: rgb(65, 62, 62);
   align-items: center;
+  top: 0px;
 }
 .frisr-nav, .lest-nav{
   display: flex;
@@ -40,7 +41,7 @@ nav{
   border-radius: 20px;
   padding: 4px 15px;
   background: none;
-  color: rgb(190, 188, 188);
+  color: white;
 }
 /***frist-nav end***/
 
@@ -153,6 +154,17 @@ nav{
  /********content-section start*******/
  .content{
    display: flex;
+ }
+ .first-content, .lest-content{
+   display: flex;
+   flex-basis: 25%;
+ }
+ .mane-content{
+   display: flex;
+   flex-basis: 48%;
+   height: 100vh;
+   width: 100%;
+   background-color: white;
  }
  
  /********content-section end*******/
