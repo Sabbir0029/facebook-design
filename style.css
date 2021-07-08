@@ -46,6 +46,7 @@ nav{
 
 /***medol-nav start***/
 .medol-nav{
+  position: relative;
   display: flex;
   flex-basis: 48%;
   height: 40px;
@@ -56,7 +57,40 @@ nav{
   align-items: center;
   font-size: 30px;
   color: white;
+  position: relative;
 }
+.medol-nav .online::after{
+ content: "12+";
+ width: 20px;
+ height: 20px;
+ font-size: 12px;
+ font-weight: 900;
+ color:white;
+ background-color: red;
+ border-radius: 50%;
+ display: block;
+ margin: 0 auto;
+ top: -7px;
+ right: -10px;
+ position: absolute;
+ text-align: center;
+}
+.medol-nav .online-one::after{
+  content: "8+";
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 900;
+  color:white;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  top: -7px;
+  right: -10px;
+  position: absolute;
+  text-align: center;
+ }
 .lest-nav{
   display: flex;
   align-items: center;
@@ -76,8 +110,49 @@ nav{
   color: white;
 }
 .lest-nav-icon i{
+  position: relative;
   margin: 6px 20px;
   font-size: 30px;
   color: white;
   cursor: pointer;
 }
+.lest-nav-icon .online-two::after{
+  content: "18+";
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 900;
+  color:white;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  top: -7px;
+  right: -10px;
+  position: absolute;
+  text-align: center;
+ }
+ .lest-nav-icon .online-the::after{
+  content: "61+";
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 900;
+  color:white;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  top: -7px;
+  right: -10px;
+  position: absolute;
+  text-align: center;
+ }
+ /************nav-section end****************/
+
+ /********content-section start*******/
+ .content{
+   display: flex;
+ }
+ 
+ /********content-section end*******/
